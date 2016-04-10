@@ -57,28 +57,18 @@
 
 
 
-<meta name="description" content="1.什么是GCD？
-GCD全称Grand Central Dispatch，我们通俗的翻译叫牛逼的中心调度。
-
-2.我们用GCD干什么？
-通过 GCD，开发者不用再直接跟线程打交道了，只需要向队列中添加代码块即可，GCD 在后端管理着一个线程池。GCD 不仅决定着你的代码块将在哪个线程被执行，它还根据可用的系统资源对这些线程进行管理。这样可以将开发者从线程管理的工作中解放出来，通过集中的管理线程，">
+<meta name="description">
 <meta property="og:type" content="article">
 <meta property="og:title" content="iOS多线程GCD详解">
 <meta property="og:url" content="http://uormi.com/2016/04/10/40298iOS多线程GCD详解/index.html">
 <meta property="og:site_name" content="阿达的个人博客">
-<meta property="og:description" content="1.什么是GCD？
-GCD全称Grand Central Dispatch，我们通俗的翻译叫牛逼的中心调度。
-
-2.我们用GCD干什么？
-通过 GCD，开发者不用再直接跟线程打交道了，只需要向队列中添加代码块即可，GCD 在后端管理着一个线程池。GCD 不仅决定着你的代码块将在哪个线程被执行，它还根据可用的系统资源对这些线程进行管理。这样可以将开发者从线程管理的工作中解放出来，通过集中的管理线程，">
-<meta property="og:updated_time" content="2016-04-10T13:07:06.000Z">
+<meta property="og:description">
+<meta property="og:image" content="http://img5.imgtn.bdimg.com/it/u=441235276,285364159&fm=23&gp=0.jpg">
+<meta property="og:updated_time" content="2016-04-10T13:11:44.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="iOS多线程GCD详解">
-<meta name="twitter:description" content="1.什么是GCD？
-GCD全称Grand Central Dispatch，我们通俗的翻译叫牛逼的中心调度。
-
-2.我们用GCD干什么？
-通过 GCD，开发者不用再直接跟线程打交道了，只需要向队列中添加代码块即可，GCD 在后端管理着一个线程池。GCD 不仅决定着你的代码块将在哪个线程被执行，它还根据可用的系统资源对这些线程进行管理。这样可以将开发者从线程管理的工作中解放出来，通过集中的管理线程，">
+<meta name="twitter:description">
+<meta name="twitter:image" content="http://img5.imgtn.bdimg.com/it/u=441235276,285364159&fm=23&gp=0.jpg">
 
 
 
@@ -320,7 +310,8 @@ GCD全称Grand Central Dispatch，我们通俗的翻译叫牛逼的中心调度�
       
 
       
-        <h3 id="1-什么是GCD？"><a href="#1-什么是GCD？" class="headerlink" title="1.什么是GCD？"></a>1.什么是GCD？</h3><ul>
+        <p><img src="http://img5.imgtn.bdimg.com/it/u=441235276,285364159&amp;fm=23&amp;gp=0.jpg" alt="image"><br><a id="more"></a></p>
+<h3 id="1-什么是GCD？"><a href="#1-什么是GCD？" class="headerlink" title="1.什么是GCD？"></a>1.什么是GCD？</h3><ul>
 <li>GCD全称Grand Central Dispatch，我们通俗的翻译叫牛逼的中心调度。</li>
 </ul>
 <h3 id="2-我们用GCD干什么？"><a href="#2-我们用GCD干什么？" class="headerlink" title="2.我们用GCD干什么？"></a>2.我们用GCD干什么？</h3><ul>
